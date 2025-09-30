@@ -1,0 +1,21 @@
+{
+  "configInfo": {
+    "FallbackDelayFrame":  10,
+    "DelayCloseInternal":  3000,
+    "zoomInFrameNum":      6,
+    "zoomOutFrameNum":     6,
+    "ZoomInEffect":        false,
+    "ZoomOutEffect":       false,
+    "FallbackEffectUW":    false,
+    "FallbackEffectW":     true
+  },
+  "wideToUltraWide": {
+    "timeIntervalFallback":    500,
+    "timeIntervalRecovery":    1000,
+    "focusDistThresholdDelta": 5,
+    "focusDistThreshold":      [2.5, 10],
+    "luxIndexThresholdDelta":  60.0,
+    "luxIndexThreshold":       [1320.0, 1600.0],
+    "userRatioRange":          [0.5, 10.0]
+  }
+}
